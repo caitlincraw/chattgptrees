@@ -1,0 +1,17 @@
+# Supabase CLI configuration
+# This file is auto-generated when you run `supabase init` or `supabase link`
+# You can edit it manually, but it's usually better to let the CLI manage it
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3001", "http://localhost:3002", "http://localhost:3003"]
+jwt_expiry = 3600
+enable_signup = true
+
+[db]
+# Database connection settings
+# These are automatically configured when linking to a project
+port = 54322
+shadow_port = 54320
+major_version = 17
